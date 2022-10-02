@@ -7,6 +7,18 @@ pipeline {
       sh 'echo Hello'
       }
     }
+    stage('Build'){
+      steps{
+      sh 'echo Hello'
+      }
+    stage('Build'){
+      steps{
+      sh 'echo Hello'
+      }
+    stage('Build'){
+     steps{
+     sh 'echo Hello'
+     }
   }
   
 }
